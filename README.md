@@ -1,13 +1,16 @@
 # MavenProject
 MavenProjectHavelsan
 
+*********** Projenin debug modda açılabilmesi için INTELLIJ IDEA'da 'oksuz' klasörü altındaki 'huseyin' klasörüne sağ tıklanarak 'Mark Directory as' opsiyonundan bu klasör 'Sources Root' seçeneği seçilir. Böylelikle 'main' metodu aktif hale gelir.
+
+
 Projede beklenen  jar dosyasını decompile edip tekrar source code'u ile bir proje haline getirmek. Bu jardan oluşacak proje dosyası bir Maven Projesidir.
 
 TestProseduruAnaliziv2.9FINAl.jar dosyası jarın yaptığı çok genel olarak bir test prosedürünü alıp gereksinimlerini bulup bizim yazdığımız formata uygun olup
 olmadığını anlama, içinde verdiğimiz srs koduyla arama yapma ve bundan izlenebilirlik dökümanı çıkarma(TD-0001 testinde mesela şu gereksinimler vardır diye
 söyleyen döküman). 
 
-Bu aşamalar geçildikten sonra kaynak kodlar geliştirilerek, kullanıcının arama sembolü seçebileceği bir arayüz tasarlandı.
+Bu aşamalar geçildikten sonra opsGUI dosyasındaki kaynak kodlar geliştirilerek, kullanıcının arama sembolü seçebileceği bir arayüz tasarlandı.
 
 ------------
 TestProseduruAnaliziv2.9FINAl.jar dosyasi çalıştırıldığı zaman 1.docx dosyası seçilir ve kontrol et butonuna basılır. Tarama başlar.  Tarama bittikten sonra uygulama size " Dosya içerisindeki gereksinimler başarıyla okundu. Doğrulama yapmak ister misiniz?" uyarısı verir. Eğer evet e tıklarsanız, Gereksinim Listesini aşağıya kopyalamak için bir alan açılır. Bu alana 'srs' kodunu yapıştırıp doğrulayabilirsiniz. Doğrulama bitince size şöyle bir çıktı verecektir
